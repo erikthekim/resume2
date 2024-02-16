@@ -13,11 +13,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1">
     <title>Proessional Resume</title>
 </head>
 
 <body>
+	<script>
+		const cursor = document.querySelector('.cursor');
+		document.addEventListener('mousemove', (e) =>{
+					cursor.style.left = e.pageX + 'px';
+					cursor.style.top = e.pageY + 'px';
+				})
+	</script>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light py-md-3 px-md-5">
             <div class="container-fluid">
@@ -197,7 +204,7 @@
             </div>
             <div class="download bg-dark">
                 <div class="text text-center py-5 px-3">
-                    <h3 class="text-white py-3">Free Download at Start Bootstrap!</h3>
+                    <h3 class="text-white py-3">Get In Touch! All my socials are linked below</h3>
 
                     <button class="rounded-pill p-3 bg-light border-0">
                         <a href="" class="text-dark">FIND OUT MORE</a>
@@ -213,7 +220,7 @@
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <!-- Left -->
             <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
+                <span>Please do NOT hesitate to reach out!</span>
             </div>
             <!-- Left -->
 
