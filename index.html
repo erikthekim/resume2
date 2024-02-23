@@ -1,253 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Erik's Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-callout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=1">
-    <title>Proessional Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+ 
+
 </head>
-
 <body>
-	<script>
-		const cursor = document.querySelector('.cursor');
-		document.addEventListener('mousemove', (e) =>{
-					cursor.style.left = e.pageX + 'px';
-					cursor.style.top = e.pageY + 'px';
-				})
-	</script>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light py-md-3 px-md-5">
-            <div class="container-fluid">
-                <a class="navbar-brand  text-white" href="#home">Proessional Resume</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars text-light"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item px-4 py-2">
-                            <a href="#home">Home</a>
-                        </li>
-                        <li class="nav-item px-4 py-2">
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="nav-item px-4 py-2">
-                            <a href="#Service">Services</a>
-                        </li>
-                        <li class="nav-item px-4 py-2">
-                            <a href="#portfolio">Portfolio</a>
-                        </li>
-                
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <Home>
-        <section class="home" id="home">
-            <div class="home-container">
-                <div class="layer d-flex justify-content-center align-items-center text-light w-100 h-100">
-                    <div class="home-text text-center">
-                        <h1>
-                            Your Favorite Place for Free
-                            <br>
-                            Professional Consulting
-                        </h1>
-                        <p class="pt-4 pb-4 fs-5">
-                            Start your professional business journey with the help of a college student and ChatGPT!
-                             <br>
-                            Completely Free!
-            
-                        </p>
-                        <button class="rounded-pill p-3">
-                            <a href="#about">FIND OUT MORE</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---------------about-------------->
-        <section class="about-section" id="about">
-            <div class="container pt-3 pb-3">
-                <div class="about-text text-center pt-5 pb-5">
-                    <h2>
-                        Your go-to unlicensed consultant
-                    </h2>
-                    <p class="pt-4 pb-4 fs-5">
-                        I know life can be pretty hard and rough.
-                         <br> 
-			 But never give up! I will be with you every step of the way!
-                    </p>
-                    <button class="rounded-pill p-3">
-                        <a href="#Service">FIND OUT MORE</a>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <!---------------service-------------->
-        <section class="Service-section" id="Service">
-            <div class="container pt-3 pb-3">
-                <div class="Service-text text-center py-5">
-                    <div class="title">
-                        <h2 class="py-4">
-                            Projects
-                        </h2>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="col-md-6 col-lg-3">
-                            <div class="content text-center p-3">
-                                <i class="fa-regular fa-gem"></i>
-                                <h3>Educational</h3>
-                                <p class="fs-5">All my projects are highly academic and professional.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="content text-center p-3">
-                                <i class="fa-solid fa-laptop"></i>
-                                <h3>Secure</h3>
-                                <p class="fs-5">End-to-End Encyrption Used!!</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="content text-center p-3">
-                                <i class="fa-solid fa-globe"></i>
-				<h3>Scalability</h3>
-                                <p class="fs-5">My projects are highly scalabale and can be used in a variety of contexts including corporate and personal environments</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <div class="content text-center p-3">
-                                <i class="fa-regular fa-heart"></i>
-                                <h3>Customization</h3>
-                                <p class="fs-5">Catered to each client's needs, our projects are built with love and care!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!---------------portfolio-------------->
-        <section class="portfolio" id="portfolio">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <div class="item position-relative">
-                        <img class="w-100" src="images/1.jpg" alt="portfolio">
-                        <div class="item-layer w-100 h-100 position-absolute top-0 d-flex flex-column 
-                        justify-content-center align-items-center text-white">
-                            <span>C++</span>
-                            <h3>Digital River</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item position-relative">
-                        <img class="w-100" src="images/2.jpg" alt="portfolio">
-                        <div class="item-layer w-100 h-100 position-absolute top-0 d-flex flex-column 
-                        justify-content-center align-items-center text-white ">
-			    <span>Bootstrap</span>
-                            <h3>Web Development</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item position-relative">
-                        <img class="w-100" src="images/3.jpg" alt="portfolio">
-                        <div class="item-layer w-100 h-100 position-absolute top-0 d-flex flex-column 
-                        justify-content-center align-items-center text-white">
-                            <span>Marketing</span>
-                            <h3>SEO</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item position-relative">
-                        <img class="w-100" src="images/4.jpg" alt="portfolio">
-                        <div class="item-layer w-100 h-100 position-absolute top-0 d-flex flex-column 
-                        justify-content-center align-items-center text-white">
-                            <span>Marketing</span>
-                            <h3>Copyediting</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item position-relative">
-                        <img class="w-100" src="images/5.jpg" alt="portfolio">
-                        <div class="item-layer w-100 h-100 position-absolute top-0 d-flex flex-column 
-                        justify-content-center align-items-center text-white">
-			    <span>Leadership</span>
-                            <h3>HR Consulting</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="item position-relative">
-                        <img class="w-100" src="images/6.jpg" alt="portfolio">
-                        <div class="item-layer w-100 h-100 position-absolute top-0 d-flex flex-column 
-                        justify-content-center align-items-center text-white">
-                            <span>Strategy</span>
-                            <h3>Finance & Budgeting</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="download bg-dark">
-                <div class="text text-center py-5 px-3">
-                    <h3 class="text-white py-3">Get In Touch! All my socials are linked below</h3>
-
-                    <button class="rounded-pill p-3 bg-light border-0">
-                        <a href="" class="text-dark">FIND OUT MORE</a>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <!---------------contact-------------->
-        
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-muted" style="background-color: #8f7f6614;">
-        <!-- Section: Social media -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Please do NOT hesitate to reach out!</span>
-            </div>
-            <!-- Left -->
-
-            <!-- Right -->
-            <div>
-                <a href="https://www.facebook.com/" class="me-4 link-secondary">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                
-                <a href="https://instagram.com" class="me-4 link-secondary">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="" class="me-4 link-secondary">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/erikthekim" class="me-4 link-secondary">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </section>
-        <!-- Copyright -->
-        <div class="text-center p-4">
-            © 2024 Copyright:
-            <a class="text-reset fw-bold" href="https://www.linkedin.com/in/erik-kim-587a80245/">Erik Kim</a>
+    <nav id="scrolling_navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Erik's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+      </nav>
+
+      <div data-bs-spy="scroll" data-bs-target="#scrolling_navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+
+        <section class="min-vh-100 d-flex flex-wrap align-content-center" id="home" style="background-image: url('image/home.jpg'); background-size: cover;">
+          <div class="container d-flex align-items-center py-5">
+              <div class="col text-center bg-light m-4 p-4 text-dark bg-opacity-50 rounded-5 border border-2 border-white">
+                <img src="image/haskell.png" class="img-fluid col-lg-2 col-sm-6 col-xs-6 mb-4"> 
+                <p class="display-2 text-secondary mb-3">Erik Kim</p>
+                <p class="text-secondary fs-5 mb-6">Professional Haskell Developer</p>
+                <a class="btn btn-success btn-lg active rounded-pill mb-3" href="#about">About</a>
+                <a class="btn btn-light btn-lg rounded-pill mb-3" href="#contact">Contact</a>
+            </div>
+          </div>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="container py-5" id="about">
+            <div class="text-center py-5">
+                <h2 class="fw-bolder">About</h2>
+                <p class="fs-5">Welcome to my page!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" >
+                    <img class="img-fluid rounded-5" src="image/19199262.png">
+                </div>
+                <div class="col-lg-7 offset-lg-1">
+                    <p class="lh-lg mb-6">I am a freshman at Kenyon College with an intended major in Mathematics and a possible minor in Computing. I am interested in symbolic AI and mathematical modeling and had the opportunity to participate in a variety of projects during my four years in high school. I hope to pursue a career in AI research post-college. 
+
+                      Additionally, game development has been a passion of mine for a very long time. I would be beyond excited to have an internship opportunity to work with a video game developer. 
+                      
+                      I specialize in functional programming, although I was taught imperative programming first. I consider myself proficient in Haskell and Ruby, and experienced in all the other languages listed on my resume and my profile. 
+                      
+                      Please reach out if you have any questions or summer research/job opportunities!</p>
+                    <h3 class="fw-bold fs-4">Skills</h3>
+                    
+                    <p class="mb-0" >HTML:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-greenyellow" style="width: 99%;">99%</div>
+                    </div>
+                    <p class="mb-0" >CSS:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 99%;">99%</div>
+                    </div>
+                    <p class="mb-0" >JS:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 90%;">90%</div>
+                    </div>
+                    <p class="mb-0" >BOOTSTRAP 5:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 99%;">99%</div>
+                    </div>
+                    <p class="mb-0" >HASKELL:</p>
+                    <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped bg-green" style="width: 99%;">99%</div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="projects">
+            <div class="container">
+                <div class="text-white text-center py-5">
+                    <h2 class="fw-bolder">Projects</h2>
+                    <p class="fs-5">Haskell, CSS, C++, and more...</p>
+                </div>
+
+                <div class="row pb-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                    <div class="col-12 col-sm-6 col-lg-6 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/digitalriver.jpg" data-target="#carouselExample" data-slide-to="0">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/ishcmc.jpg" data-target="#carouselExample" data-slide-to="1">
+                    </div>
+                    
+                </div>
+                <div class="row pb-4" id="gallery" data-toggle="modal" data-target="#exampleModal">
+                    <div class="col-12 col-sm-6 col-lg-6 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/calculator.jpg" data-target="#carouselExample" data-slide-to="2">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 mb-4">
+                      <img class="w-100 img-thumbnail" src="image/nextlevel.png" data-target="#carouselExample" data-slide-to="3">
+                    </div>
+                   
+                  </div>
+                  
+                  <!-- Modal -->
+                  <!-- 
+                  This part is straight out of Bootstrap docs. Just a carousel inside a modal.
+                  -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                              </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/digitalriver.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/ishcmc.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/calculator.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/nextlevel.png">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-5.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-6.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-7.jpg">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img class="d-block w-100" src="image/photo-8.jpg">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExample" type="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" type="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#scrolling_navbar" class="bg-dark py-5" id="contact">
+            <div class="container">
+                <div class="text-white text-center py-5">
+                    <h2 class="fw-bolder">Contact</h2>
+                    <p class="fs-5">Get in touch!</p>
+                </div>
+
+                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9 col-sm-10 col-11 mx-auto">
+                    <form action="https://formsubmit.co/kim16@kenyon.edu" method = "POST" class="text-white fs-6">
+                        <div class="mb-3">
+                            <label class="form-label text-white">Name</label>
+                            <input type="text" name= "name" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Email</label>
+                            <input type="email" name="email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Subject</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-white">Message</label>
+                            <textarea type="email" name="email" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="d-grid gap-2 col-lg-4 col-md-4 mx-auto">
+                            <button type = "submit" class="btn btn-success btn-lg rounded-pill">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-light">
+            <div class="container">
+                <p class="copyright-text text-center fs-8 py-4 mb-0">Copyright © 2024 <a class="text-dark" href="https://www.linkedin.com/in/erik-kim-587a80245/" target="_blank">@erikthekim</a></p>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script>
+        function switchStyle() {
+        if (document.getElementById('styleSwitch').checked) {
+            document.getElementById('gallery').classList.add("custom");
+            document.getElementById('exampleModal').classList.add("custom");
+        } else {
+            document.getElementById('gallery').classList.remove("custom");
+            document.getElementById('exampleModal').classList.remove("custom");
+        }
+        };
+        
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+   
 </body>
+</html>
